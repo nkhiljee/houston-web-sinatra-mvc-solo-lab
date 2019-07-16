@@ -1,0 +1,14 @@
+<h1> WELCOME to the APP </h1>
+<ul>
+
+<% @puppys.each do |a| %>
+<a href="/puppies/<%= a.id%>"> 
+<li> <%= a.name %> </li>
+</a>
+<%end%>
+
+</ul>
+
+
+
+
